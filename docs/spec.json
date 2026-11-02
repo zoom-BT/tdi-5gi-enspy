@@ -1,0 +1,305 @@
+{
+ "ch01_intro/numerisation.py": {
+  "owner": "M01",
+  "chapitre": "Ch1",
+  "fonctions": [
+   "rgb_vers_gris",
+   "extraire_canal",
+   "echantillonner",
+   "quantifier",
+   "taille_stockage_bits"
+  ]
+ },
+ "ch01_intro/profil.py": {
+  "owner": "M01",
+  "chapitre": "Ch1",
+  "fonctions": [
+   "profil_ligne",
+   "profil_colonne",
+   "profil_segment"
+  ]
+ },
+ "ch02_base/interpolation.py": {
+  "owner": "M01",
+  "chapitre": "Ch2",
+  "fonctions": [
+   "zoom_plus_proche_voisin",
+   "zoom_bilineaire",
+   "zoom_bicubique",
+   "redimensionner"
+  ]
+ },
+ "ch02_base/histogramme.py": {
+  "owner": "M02",
+  "chapitre": "Ch2",
+  "fonctions": [
+   "histogramme",
+   "histogramme_normalise",
+   "histogramme_cumule",
+   "egalisation",
+   "egalisation_locale",
+   "specification_histogramme"
+  ]
+ },
+ "ch02_base/stats.py": {
+  "owner": "M02",
+  "chapitre": "Ch2",
+  "fonctions": [
+   "luminance",
+   "contraste_ecart_type",
+   "contraste_min_max",
+   "dynamique"
+  ]
+ },
+ "ch02_base/ponctuel.py": {
+  "owner": "M03",
+  "chapitre": "Ch2",
+  "fonctions": [
+   "appliquer_lut",
+   "transformation_lineaire",
+   "transformation_lineaire_saturation",
+   "transformation_par_morceaux",
+   "correction_gamma",
+   "negatif",
+   "transformation_log"
+  ]
+ },
+ "ch02_base/arithmetique.py": {
+  "owner": "M03",
+  "chapitre": "Ch2",
+  "fonctions": [
+   "et_logique",
+   "ou_logique",
+   "xor_logique",
+   "non_logique",
+   "addition",
+   "soustraction",
+   "difference_absolue",
+   "multiplication",
+   "combinaison_lineaire"
+  ]
+ },
+ "ch03_convolution/convolution.py": {
+  "owner": "M05",
+  "chapitre": "Ch3",
+  "fonctions": [
+   "pad",
+   "convolution2d",
+   "convolution_partielle",
+   "convolution_separable"
+  ]
+ },
+ "ch03_convolution/lissage.py": {
+  "owner": "M05",
+  "chapitre": "Ch3",
+  "fonctions": [
+   "noyau_moyenneur",
+   "filtre_moyenneur",
+   "noyau_gaussien",
+   "filtre_gaussien"
+  ]
+ },
+ "ch03_convolution/passe_haut.py": {
+  "owner": "M05",
+  "chapitre": "Ch3",
+  "fonctions": [
+   "filtre_passe_haut",
+   "accentuation_unsharp"
+  ]
+ },
+ "ch03_convolution/ordre.py": {
+  "owner": "M06",
+  "chapitre": "Ch3",
+  "fonctions": [
+   "filtre_median",
+   "filtre_min",
+   "filtre_max"
+  ]
+ },
+ "ch03_convolution/bruit.py": {
+  "owner": "M06",
+  "chapitre": "Ch3",
+  "fonctions": [
+   "bruit_poivre_sel",
+   "bruit_gaussien",
+   "psnr"
+  ]
+ },
+ "ch04_fourier/fft.py": {
+  "owner": "M07",
+  "chapitre": "Ch4",
+  "fonctions": [
+   "fft1d",
+   "ifft1d",
+   "pad_puissance_de_2",
+   "fft2d",
+   "ifft2d",
+   "fftshift",
+   "ifftshift"
+  ]
+ },
+ "ch04_fourier/spectre.py": {
+  "owner": "M07",
+  "chapitre": "Ch4",
+  "fonctions": [
+   "module",
+   "phase",
+   "spectre_log",
+   "image_sinus",
+   "image_carre",
+   "image_impulsions"
+  ]
+ },
+ "ch04_fourier/filtres_frequentiels.py": {
+  "owner": "M08",
+  "chapitre": "Ch4",
+  "fonctions": [
+   "masque_passe_bas_ideal",
+   "masque_passe_haut_ideal",
+   "masque_gaussien",
+   "filtrer_frequentiel",
+   "energie_par_rayon",
+   "filtre_notch",
+   "rehaussement_frequentiel"
+  ]
+ },
+ "ch05_contours/gradient.py": {
+  "owner": "M09",
+  "chapitre": "Ch5",
+  "fonctions": [
+   "derivee_simple",
+   "roberts",
+   "prewitt",
+   "sobel",
+   "isotropique",
+   "norme_gradient",
+   "direction_gradient",
+   "seuiller_gradient"
+  ]
+ },
+ "ch05_contours/laplacien.py": {
+  "owner": "M09",
+  "chapitre": "Ch5",
+  "fonctions": [
+   "laplacien",
+   "passages_par_zero",
+   "log"
+  ]
+ },
+ "ch07_binaires/fermeture_contours.py": {
+  "owner": "M09",
+  "chapitre": "Ch7",
+  "fonctions": [
+   "fermer_contours",
+   "extremites"
+  ]
+ },
+ "ch05_contours/hough.py": {
+  "owner": "M10",
+  "chapitre": "Ch5",
+  "fonctions": [
+   "hough_droites",
+   "pics_hough",
+   "tracer_droites"
+  ]
+ },
+ "ch05_contours/canny.py": {
+  "owner": "M10",
+  "chapitre": "Ch5",
+  "fonctions": [
+   "suppression_non_maxima",
+   "canny"
+  ]
+ },
+ "ch07_binaires/hysteresis.py": {
+  "owner": "M10",
+  "chapitre": "Ch7",
+  "fonctions": [
+   "seuillage_hysteresis"
+  ]
+ },
+ "ch06_segmentation/seuillage.py": {
+  "owner": "M11",
+  "chapitre": "Ch6",
+  "fonctions": [
+   "seuillage",
+   "multi_seuillage",
+   "seuil_moyenne",
+   "seuil_milieu_min_max",
+   "seuil_iteratif",
+   "seuil_otsu",
+   "seuillage_adaptatif"
+  ]
+ },
+ "ch06_segmentation/kmeans.py": {
+  "owner": "M11",
+  "chapitre": "Ch6",
+  "fonctions": [
+   "kmeans",
+   "segmenter_kmeans_gris",
+   "segmenter_kmeans_couleur"
+  ]
+ },
+ "ch06_segmentation/split_merge.py": {
+  "owner": "M12",
+  "chapitre": "Ch6",
+  "fonctions": [
+   "est_homogene",
+   "division",
+   "fusion",
+   "split_and_merge"
+  ]
+ },
+ "ch06_segmentation/croissance.py": {
+  "owner": "M12",
+  "chapitre": "Ch6",
+  "fonctions": [
+   "croissance_region",
+   "croissance_multi_germes",
+   "germes_automatiques"
+  ]
+ },
+ "ch07_binaires/connexite.py": {
+  "owner": "M04",
+  "chapitre": "Ch7",
+  "fonctions": [
+   "voisins",
+   "distance_d4",
+   "distance_d8",
+   "carte_distances"
+  ]
+ },
+ "ch07_binaires/etiquetage.py": {
+  "owner": "M04",
+  "chapitre": "Ch7",
+  "fonctions": [
+   "etiqueter_multi_passes",
+   "etiqueter_une_passe",
+   "etiqueter_contours",
+   "proprietes_regions"
+  ]
+ },
+ "ch07_binaires/freeman.py": {
+  "owner": "M04",
+  "chapitre": "Ch7",
+  "fonctions": [
+   "code_freeman",
+   "decoder_freeman",
+   "suivi_contour"
+  ]
+ },
+ "ch07_binaires/morphologie.py": {
+  "owner": "M06",
+  "chapitre": "Ch7",
+  "fonctions": [
+   "element_structurant",
+   "erosion",
+   "dilatation",
+   "ouverture",
+   "fermeture",
+   "gradient_interne",
+   "gradient_externe",
+   "gradient_morphologique"
+  ]
+ }
+}

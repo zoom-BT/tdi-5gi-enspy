@@ -1,0 +1,8 @@
+-r requirements.txt
+pytest>=8
+pytest-cov
+ruff
+matplotlib
+scipy
+scikit-image
+opencv-python-headless
